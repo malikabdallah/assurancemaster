@@ -1,0 +1,107 @@
+body {
+	background-color: #f7f7f6;
+}
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+.navbar-default {
+	background-color: #24b894;
+	border-color: #139674;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #ccc;
+}
+.navbar-default .navbar-text {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ccc;
+	background-color: #19a581;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ccc;
+	background-color: #139674;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #ccc;
+	background-color: #139674;
+}
+.navbar-default .navbar-toggle {
+	border-color: #139674;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #139674;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #fff;
+}
+.navbar-default .navbar-link {
+	color: #fff;
+}
+.navbar-default .navbar-link:hover {
+	color: #ccc;
+}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ccc;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #ccc;
+		background-color: #139674;
+	}
+}
+.logo {
+	max-width: 100px;
+	margin-top: -7px;
+}
+.jumbotron {
+	background: url('../images/background.jpg');
+	color: #fff;
+	background-position: center bottom;
+}
+.custom-content {
+	padding: 20px;
+}
+.login-container {
+	width: 65%;
+}
+.login-form {
+	width: 90%;
+	padding: 15px;
+}
+.login-icon {
+	height: 54px;
+}
+.table tbody>tr>td {
+	vertical-align: middle;
+}
+footer {
+	margin-top: 30px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	background-color: #2c4559;
+	color: #fff;
+}
+footer .social a {
+	font-size: 35px;
+	margin-left: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+footer .social a:hover {
+	color: #ccc;
+}
